@@ -1,0 +1,21 @@
+{
+  "Lácteos": {
+    "leche1l": {
+      "name": "Leche 1L",
+      "prices": { "Mercadona": 1.20, "Carrefour": 1.10 },
+      "unitPrices": { "Mercadona": 1.20, "Carrefour": 1.10 }
+    },
+    "yogurpack": {
+      "name": "Pack yogures (8u)",
+      "prices": { "Mercadona": 2.50, "Lidl": 2.30 },
+      "unitPrices": { "Mercadona": 3.12, "Lidl": 2.87 }
+    }
+  },
+  "Panadería": {
+    "panmolde": {
+      "name": "Pan de molde",
+      "prices": { "Mercadona": 1.80, "Lidl": 1.70 },
+      "unitPrices": { "Mercadona": 2.50, "Lidl": 2.30 }
+    }
+  }
+}
