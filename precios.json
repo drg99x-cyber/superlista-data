@@ -2,8 +2,8 @@
   "Agua y aceite": {
     "agua1l": {
       "prices": {
-        "Mercadona": 0.35,
-        "Carrefour": 0.40,
+        "Mercadona": 9.35,
+        "Carrefour": 9.40,
         "Lidl": 0.30,
         "Gadis": 0.38,
         "Día": 0.33,
@@ -138,3 +138,4 @@
     }
   }
 }
+
