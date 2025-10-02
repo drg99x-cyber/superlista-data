@@ -1,4 +1,14 @@
 {
+  "supermarkets": [
+    "Mercadona",
+    "Carrefour",
+    "Lidl",
+    "Gadis",
+    "Día",
+    "Alcampo",
+    "Eroski",
+    "Aldi"
+  ],
   "groups": {
     "Agua y aceite": {
       "agua": {
@@ -530,5 +540,3 @@
     }
   }
 }
-
-
