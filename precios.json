@@ -1,101 +1,23 @@
 {
-  "supermarkets": ["Mercadona","Carrefour","Lidl","Gadis","Día","Alcampo","Eroski","Aldi"],
-  "groups": {
-    "Lácteos y huevos": {
-      "leche1l": {
-        "name": "Leche entera 1L",
-        "prices": {
-          "Mercadona": 1.25,
-          "Carrefour": 1.19,
-          "Lidl": 1.15,
-          "Gadis": 1.30,
-          "Día": 1.22,
-          "Alcampo": 1.18,
-          "Eroski": 1.20,
-          "Aldi": 1.16
-        },
-        "unitPrices": {
-          "Mercadona": 1.25,
-          "Carrefour": 1.19,
-          "Lidl": 1.15,
-          "Gadis": 1.30,
-          "Día": 1.22,
-          "Alcampo": 1.18,
-          "Eroski": 1.20,
-          "Aldi": 1.16
-        }
-      },
-      "docenaHuevos": {
-        "name": "Huevos docena",
-        "prices": {
-          "Mercadona": 2.20,
-          "Carrefour": 2.10,
-          "Lidl": 2.00,
-          "Gadis": 2.25,
-          "Día": 2.15,
-          "Alcampo": 2.05,
-          "Eroski": 2.18,
-          "Aldi": 2.00
-        },
-        "unitPrices": {
-          "Mercadona": 0.18,
-          "Carrefour": 0.17,
-          "Lidl": 0.17,
-          "Gadis": 0.19,
-          "Día": 0.18,
-          "Alcampo": 0.17,
-          "Eroski": 0.18,
-          "Aldi": 0.17
-        }
-      }
-    },
-    "Panadería y bollería": {
-      "panMolde": {
-        "name": "Pan de molde 500g",
-        "prices": {
-          "Mercadona": 1.50,
-          "Carrefour": 1.55,
-          "Lidl": 1.40,
-          "Gadis": 1.60,
-          "Día": 1.48,
-          "Alcampo": 1.45,
-          "Eroski": 1.50,
-          "Aldi": 1.42
-        },
-        "unitPrices": {
-          "Mercadona": 3.00,
-          "Carrefour": 3.10,
-          "Lidl": 2.80,
-          "Gadis": 3.20,
-          "Día": 2.96,
-          "Alcampo": 2.90,
-          "Eroski": 3.00,
-          "Aldi": 2.84
-        }
-      },
-      "croissantsPack": {
-        "name": "Pack 6 croissants",
-        "prices": {
-          "Mercadona": 2.50,
-          "Carrefour": 2.60,
-          "Lidl": 2.40,
-          "Gadis": 2.70,
-          "Día": 2.55,
-          "Alcampo": 2.50,
-          "Eroski": 2.60,
-          "Aldi": 2.45
-        },
-        "unitPrices": {
-          "Mercadona": 0.42,
-          "Carrefour": 0.43,
-          "Lidl": 0.40,
-          "Gadis": 0.45,
-          "Día": 0.43,
-          "Alcampo": 0.42,
-          "Eroski": 0.43,
-          "Aldi": 0.41
-        }
-      }
+  "Lácteos y huevos": {
+    "leche1l": {
+      "name": "Leche entera 1L",
+      "prices": { "Mercadona": 1.25, "Carrefour": 1.19 },
+      "unitPrices": { "Mercadona": 1.25, "Carrefour": 1.19 }
+    }
+  },
+  "Frutas frescas": {
+    "platano1kg": {
+      "name": "Plátano 1kg",
+      "prices": { "Mercadona": 2.10, "Lidl": 1.95 },
+      "unitPrices": { "Mercadona": 2.10, "Lidl": 1.95 }
+    }
+  },
+  "NUEVO Grupo de snacks": {
+    "patatasFritas": {
+      "name": "Patatas fritas bolsa 150g",
+      "prices": { "Mercadona": 1.10, "Carrefour": 1.20 },
+      "unitPrices": { "Mercadona": 7.33, "Carrefour": 8.00 }
     }
   }
 }
