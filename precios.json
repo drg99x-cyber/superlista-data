@@ -1,162 +1,80 @@
 {
-  "supermarkets": [
-    "Mercadona",
-    "Carrefour",
-    "Lidl",
-    "Gadis",
-    "Día",
-    "Alcampo",
-    "Eroski",
-    "Aldi"
-  ],
+  "supermarkets": ["Mercadona","Carrefour","Lidl","Gadis","Día","Alcampo","Eroski","Aldi"],
   "groups": {
-    "Agua y aceite": {
-      "agua": {
-        "name": "Agua mineral (1,5L)",
+    "Lácteos y huevos": {
+      "leche1l": {
+        "name": "Leche entera 1L",
         "prices": {
-          "Mercadona": 0.40,
-          "Carrefour": 0.42,
-          "Lidl": 0.39,
-          "Gadis": 0.43,
-          "Día": 0.41,
-          "Alcampo": 0.40,
-          "Eroski": 0.42,
-          "Aldi": 0.38
+          "Mercadona": 1.25,
+          "Carrefour": 1.19,
+          "Lidl": 1.15,
+          "Gadis": 1.30,
+          "Día": 1.22,
+          "Alcampo": 1.18,
+          "Eroski": 1.20,
+          "Aldi": 1.16
         },
         "unitPrices": {
-          "Mercadona": 0.27,
-          "Carrefour": 0.28,
-          "Lidl": 0.26,
-          "Gadis": 0.29,
-          "Día": 0.27,
-          "Alcampo": 0.27,
-          "Eroski": 0.28,
-          "Aldi": 0.25
+          "Mercadona": 1.25,
+          "Carrefour": 1.19,
+          "Lidl": 1.15,
+          "Gadis": 1.30,
+          "Día": 1.22,
+          "Alcampo": 1.18,
+          "Eroski": 1.20,
+          "Aldi": 1.16
         }
       },
-      "aceite": {
-        "name": "Aceite de oliva (1L)",
-        "prices": {
-          "Mercadona": 6.00,
-          "Carrefour": 6.20,
-          "Lidl": 5.90,
-          "Gadis": 6.10,
-          "Día": 6.15,
-          "Alcampo": 5.95,
-          "Eroski": 6.05,
-          "Aldi": 5.85
-        },
-        "unitPrices": {
-          "Mercadona": 6.00,
-          "Carrefour": 6.20,
-          "Lidl": 5.90,
-          "Gadis": 6.10,
-          "Día": 6.15,
-          "Alcampo": 5.95,
-          "Eroski": 6.05,
-          "Aldi": 5.85
-        }
-      }
-    },
-    "Carnes y embutidos": {
-      "pollo": {
-        "name": "Pechuga de pollo (500g)",
-        "prices": {
-          "Mercadona": 3.00,
-          "Carrefour": 3.10,
-          "Lidl": 2.95,
-          "Gadis": 3.20,
-          "Día": 3.05,
-          "Alcampo": 3.00,
-          "Eroski": 3.15,
-          "Aldi": 2.90
-        },
-        "unitPrices": {
-          "Mercadona": 6.00,
-          "Carrefour": 6.20,
-          "Lidl": 5.90,
-          "Gadis": 6.40,
-          "Día": 6.10,
-          "Alcampo": 6.00,
-          "Eroski": 6.30,
-          "Aldi": 5.80
-        }
-      },
-      "jamon": {
-        "name": "Jamón cocido (200g)",
+      "docenaHuevos": {
+        "name": "Huevos docena",
         "prices": {
           "Mercadona": 2.20,
-          "Carrefour": 2.25,
-          "Lidl": 2.10,
-          "Gadis": 2.30,
+          "Carrefour": 2.10,
+          "Lidl": 2.00,
+          "Gadis": 2.25,
           "Día": 2.15,
-          "Alcampo": 2.20,
-          "Eroski": 2.25,
-          "Aldi": 2.05
+          "Alcampo": 2.05,
+          "Eroski": 2.18,
+          "Aldi": 2.00
         },
         "unitPrices": {
-          "Mercadona": 11.00,
-          "Carrefour": 11.25,
-          "Lidl": 10.50,
-          "Gadis": 11.50,
-          "Día": 10.75,
-          "Alcampo": 11.00,
-          "Eroski": 11.25,
-          "Aldi": 10.25
+          "Mercadona": 0.18,
+          "Carrefour": 0.17,
+          "Lidl": 0.17,
+          "Gadis": 0.19,
+          "Día": 0.18,
+          "Alcampo": 0.17,
+          "Eroski": 0.18,
+          "Aldi": 0.17
         }
       }
     },
-    "Cereales y derivados": {
-      "pan": {
-        "name": "Pan de molde (450g)",
+    "Panadería y bollería": {
+      "panMolde": {
+        "name": "Pan de molde 500g",
         "prices": {
           "Mercadona": 1.50,
           "Carrefour": 1.55,
           "Lidl": 1.40,
           "Gadis": 1.60,
-          "Día": 1.45,
-          "Alcampo": 1.50,
-          "Eroski": 1.55,
-          "Aldi": 1.35
+          "Día": 1.48,
+          "Alcampo": 1.45,
+          "Eroski": 1.50,
+          "Aldi": 1.42
         },
         "unitPrices": {
-          "Mercadona": 3.33,
-          "Carrefour": 3.44,
-          "Lidl": 3.11,
-          "Gadis": 3.55,
-          "Día": 3.22,
-          "Alcampo": 3.33,
-          "Eroski": 3.44,
-          "Aldi": 3.00
+          "Mercadona": 3.00,
+          "Carrefour": 3.10,
+          "Lidl": 2.80,
+          "Gadis": 3.20,
+          "Día": 2.96,
+          "Alcampo": 2.90,
+          "Eroski": 3.00,
+          "Aldi": 2.84
         }
       },
-      "arroz": {
-        "name": "Arroz (1kg)",
-        "prices": {
-          "Mercadona": 1.20,
-          "Carrefour": 1.25,
-          "Lidl": 1.15,
-          "Gadis": 1.30,
-          "Día": 1.25,
-          "Alcampo": 1.20,
-          "Eroski": 1.25,
-          "Aldi": 1.10
-        },
-        "unitPrices": {
-          "Mercadona": 1.20,
-          "Carrefour": 1.25,
-          "Lidl": 1.15,
-          "Gadis": 1.30,
-          "Día": 1.25,
-          "Alcampo": 1.20,
-          "Eroski": 1.25,
-          "Aldi": 1.10
-        }
-      }
-    },
-    "Congelados y Preparados": {
-      "pizza": {
-        "name": "Pizza congelada (400g)",
+      "croissantsPack": {
+        "name": "Pack 6 croissants",
         "prices": {
           "Mercadona": 2.50,
           "Carrefour": 2.60,
@@ -165,376 +83,17 @@
           "Día": 2.55,
           "Alcampo": 2.50,
           "Eroski": 2.60,
-          "Aldi": 2.35
+          "Aldi": 2.45
         },
         "unitPrices": {
-          "Mercadona": 6.25,
-          "Carrefour": 6.50,
-          "Lidl": 6.00,
-          "Gadis": 6.75,
-          "Día": 6.37,
-          "Alcampo": 6.25,
-          "Eroski": 6.50,
-          "Aldi": 5.87
-        }
-      },
-      "croquetas": {
-        "name": "Croquetas congeladas (500g)",
-        "prices": {
-          "Mercadona": 2.80,
-          "Carrefour": 2.90,
-          "Lidl": 2.70,
-          "Gadis": 3.00,
-          "Día": 2.85,
-          "Alcampo": 2.80,
-          "Eroski": 2.90,
-          "Aldi": 2.65
-        },
-        "unitPrices": {
-          "Mercadona": 5.60,
-          "Carrefour": 5.80,
-          "Lidl": 5.40,
-          "Gadis": 6.00,
-          "Día": 5.70,
-          "Alcampo": 5.60,
-          "Eroski": 5.80,
-          "Aldi": 5.30
-        }
-      }
-    },
-    "Especias y salsas": {
-      "ketchup": {
-        "name": "Ketchup (500ml)",
-        "prices": {
-          "Mercadona": 1.30,
-          "Carrefour": 1.35,
-          "Lidl": 1.25,
-          "Gadis": 1.40,
-          "Día": 1.35,
-          "Alcampo": 1.30,
-          "Eroski": 1.35,
-          "Aldi": 1.20
-        },
-        "unitPrices": {
-          "Mercadona": 2.60,
-          "Carrefour": 2.70,
-          "Lidl": 2.50,
-          "Gadis": 2.80,
-          "Día": 2.70,
-          "Alcampo": 2.60,
-          "Eroski": 2.70,
-          "Aldi": 2.40
-        }
-      },
-      "sal": {
-        "name": "Sal fina (1kg)",
-        "prices": {
-          "Mercadona": 0.50,
-          "Carrefour": 0.55,
-          "Lidl": 0.45,
-          "Gadis": 0.60,
-          "Día": 0.50,
-          "Alcampo": 0.50,
-          "Eroski": 0.55,
-          "Aldi": 0.45
-        },
-        "unitPrices": {
-          "Mercadona": 0.50,
-          "Carrefour": 0.55,
-          "Lidl": 0.45,
-          "Gadis": 0.60,
-          "Día": 0.50,
-          "Alcampo": 0.50,
-          "Eroski": 0.55,
-          "Aldi": 0.45
-        }
-      }
-    },
-    "Frutas frescas": {
-      "manzana": {
-        "name": "Manzana (1kg)",
-        "prices": {
-          "Mercadona": 2.20,
-          "Carrefour": 2.25,
-          "Lidl": 2.10,
-          "Gadis": 2.30,
-          "Día": 2.25,
-          "Alcampo": 2.20,
-          "Eroski": 2.25,
-          "Aldi": 2.05
-        },
-        "unitPrices": {
-          "Mercadona": 2.20,
-          "Carrefour": 2.25,
-          "Lidl": 2.10,
-          "Gadis": 2.30,
-          "Día": 2.25,
-          "Alcampo": 2.20,
-          "Eroski": 2.25,
-          "Aldi": 2.05
-        }
-      },
-      "platano": {
-        "name": "Plátano (1kg)",
-        "prices": {
-          "Mercadona": 1.90,
-          "Carrefour": 1.95,
-          "Lidl": 1.85,
-          "Gadis": 2.00,
-          "Día": 1.95,
-          "Alcampo": 1.90,
-          "Eroski": 1.95,
-          "Aldi": 1.80
-        },
-        "unitPrices": {
-          "Mercadona": 1.90,
-          "Carrefour": 1.95,
-          "Lidl": 1.85,
-          "Gadis": 2.00,
-          "Día": 1.95,
-          "Alcampo": 1.90,
-          "Eroski": 1.95,
-          "Aldi": 1.80
-        }
-      }
-    },
-    "Lácteos y huevos": {
-      "leche": {
-        "name": "Leche entera (1L)",
-        "prices": {
-          "Mercadona": 1.00,
-          "Carrefour": 1.05,
-          "Lidl": 0.95,
-          "Gadis": 1.10,
-          "Día": 1.05,
-          "Alcampo": 1.00,
-          "Eroski": 1.05,
-          "Aldi": 0.90
-        },
-        "unitPrices": {
-          "Mercadona": 1.00,
-          "Carrefour": 1.05,
-          "Lidl": 0.95,
-          "Gadis": 1.10,
-          "Día": 1.05,
-          "Alcampo": 1.00,
-          "Eroski": 1.05,
-          "Aldi": 0.90
-        }
-      },
-      "huevos": {
-        "name": "Huevos camperos (docena)",
-        "prices": {
-          "Mercadona": 2.50,
-          "Carrefour": 2.60,
-          "Lidl": 2.40,
-          "Gadis": 2.70,
-          "Día": 2.55,
-          "Alcampo": 2.50,
-          "Eroski": 2.60,
-          "Aldi": 2.30
-        },
-        "unitPrices": {
-          "Mercadona": 0.21,
-          "Carrefour": 0.22,
-          "Lidl": 0.20,
-          "Gadis": 0.23,
-          "Día": 0.21,
-          "Alcampo": 0.21,
-          "Eroski": 0.22,
-          "Aldi": 0.19
-        }
-      }
-    },
-    "Legumbres y conservas vegetales": {
-      "garbanzos": {
-        "name": "Garbanzos secos (1kg)",
-        "prices": {
-          "Mercadona": 2.10,
-          "Carrefour": 2.20,
-          "Lidl": 2.00,
-          "Gadis": 2.30,
-          "Día": 2.15,
-          "Alcampo": 2.10,
-          "Eroski": 2.20,
-          "Aldi": 1.95
-        },
-        "unitPrices": {
-          "Mercadona": 2.10,
-          "Carrefour": 2.20,
-          "Lidl": 2.00,
-          "Gadis": 2.30,
-          "Día": 2.15,
-          "Alcampo": 2.10,
-          "Eroski": 2.20,
-          "Aldi": 1.95
-        }
-      },
-      "lentejas": {
-        "name": "Lentejas cocidas (400g)",
-        "prices": {
-          "Mercadona": 0.95,
-          "Carrefour": 1.00,
-          "Lidl": 0.90,
-          "Gadis": 1.05,
-          "Día": 1.00,
-          "Alcampo": 0.95,
-          "Eroski": 1.00,
-          "Aldi": 0.85
-        },
-        "unitPrices": {
-          "Mercadona": 2.37,
-          "Carrefour": 2.50,
-          "Lidl": 2.25,
-          "Gadis": 2.62,
-          "Día": 2.50,
-          "Alcampo": 2.37,
-          "Eroski": 2.50,
-          "Aldi": 2.12
-        }
-      }
-    },
-    "Panadería y bollería": {
-      "barra": {
-        "name": "Barra de pan (250g)",
-        "prices": {
-          "Mercadona": 0.60,
-          "Carrefour": 0.65,
-          "Lidl": 0.55,
-          "Gadis": 0.70,
-          "Día": 0.65,
-          "Alcampo": 0.60,
-          "Eroski": 0.65,
-          "Aldi": 0.50
-        },
-        "unitPrices": {
-          "Mercadona": 2.40,
-          "Carrefour": 2.60,
-          "Lidl": 2.20,
-          "Gadis": 2.80,
-          "Día": 2.60,
-          "Alcampo": 2.40,
-          "Eroski": 2.60,
-          "Aldi": 2.00
-        }
-      },
-      "croissant": {
-        "name": "Croissant (pack 4)",
-        "prices": {
-          "Mercadona": 1.80,
-          "Carrefour": 1.90,
-          "Lidl": 1.70,
-          "Gadis": 2.00,
-          "Día": 1.85,
-          "Alcampo": 1.80,
-          "Eroski": 1.90,
-          "Aldi": 1.65
-        },
-        "unitPrices": {
-          "Mercadona": 0.45,
-          "Carrefour": 0.47,
-          "Lidl": 0.42,
-          "Gadis": 0.50,
-          "Día": 0.46,
-          "Alcampo": 0.45,
-          "Eroski": 0.47,
+          "Mercadona": 0.42,
+          "Carrefour": 0.43,
+          "Lidl": 0.40,
+          "Gadis": 0.45,
+          "Día": 0.43,
+          "Alcampo": 0.42,
+          "Eroski": 0.43,
           "Aldi": 0.41
-        }
-      }
-    },
-    "Pescados y mariscos": {
-      "merluza": {
-        "name": "Merluza fresca (1kg)",
-        "prices": {
-          "Mercadona": 8.50,
-          "Carrefour": 8.70,
-          "Lidl": 8.30,
-          "Gadis": 8.90,
-          "Día": 8.60,
-          "Alcampo": 8.50,
-          "Eroski": 8.70,
-          "Aldi": 8.20
-        },
-        "unitPrices": {
-          "Mercadona": 8.50,
-          "Carrefour": 8.70,
-          "Lidl": 8.30,
-          "Gadis": 8.90,
-          "Día": 8.60,
-          "Alcampo": 8.50,
-          "Eroski": 8.70,
-          "Aldi": 8.20
-        }
-      },
-      "gambas": {
-        "name": "Gambas congeladas (400g)",
-        "prices": {
-          "Mercadona": 5.20,
-          "Carrefour": 5.30,
-          "Lidl": 5.10,
-          "Gadis": 5.40,
-          "Día": 5.25,
-          "Alcampo": 5.20,
-          "Eroski": 5.30,
-          "Aldi": 5.00
-        },
-        "unitPrices": {
-          "Mercadona": 13.00,
-          "Carrefour": 13.25,
-          "Lidl": 12.75,
-          "Gadis": 13.50,
-          "Día": 13.12,
-          "Alcampo": 13.00,
-          "Eroski": 13.25,
-          "Aldi": 12.50
-        }
-      }
-    },
-    "Verduras y hortalizas frescas": {
-      "tomate": {
-        "name": "Tomate (1kg)",
-        "prices": {
-          "Mercadona": 2.10,
-          "Carrefour": 2.20,
-          "Lidl": 2.00,
-          "Gadis": 2.30,
-          "Día": 2.15,
-          "Alcampo": 2.10,
-          "Eroski": 2.20,
-          "Aldi": 1.95
-        },
-        "unitPrices": {
-          "Mercadona": 2.10,
-          "Carrefour": 2.20,
-          "Lidl": 2.00,
-          "Gadis": 2.30,
-          "Día": 2.15,
-          "Alcampo": 2.10,
-          "Eroski": 2.20,
-          "Aldi": 1.95
-        }
-      },
-      "lechuga": {
-        "name": "Lechuga iceberg (pieza)",
-        "prices": {
-          "Mercadona": 1.20,
-          "Carrefour": 1.25,
-          "Lidl": 1.10,
-          "Gadis": 1.30,
-          "Día": 1.25,
-          "Alcampo": 1.20,
-          "Eroski": 1.25,
-          "Aldi": 1.05
-        },
-        "unitPrices": {
-          "Mercadona": 1.20,
-          "Carrefour": 1.25,
-          "Lidl": 1.10,
-          "Gadis": 1.30,
-          "Día": 1.25,
-          "Alcampo": 1.20,
-          "Eroski": 1.25,
-          "Aldi": 1.05
         }
       }
     }
