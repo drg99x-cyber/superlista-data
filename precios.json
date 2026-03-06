@@ -2,7 +2,7 @@
   "Agua y aceite": {
     "agua1l": {
       "prices": {
-        "Mercadona": 9.35,
+        "Mercadona": 1.35,
         "Carrefour": 9.40,
         "Lidl": 0.30,
         "Gadis": 0.38,
@@ -12,7 +12,7 @@
         "Aldi": 0.32
       },
       "unitPrices": {
-        "Mercadona": 0.35,
+        "Mercadona": 1.35,
         "Carrefour": 0.40,
         "Lidl": 0.30,
         "Gadis": 0.38,
@@ -138,4 +138,5 @@
     }
   }
 }
+
 
